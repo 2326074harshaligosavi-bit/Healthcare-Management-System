@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointments - Healthcare Management System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Appointment Booking</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="doctors.html">Doctors</a>
+            <a href="appointments.html">Appointments</a>
+            <a href="patients.html">Patients</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Book an Appointment</h2>
+
+        <form>
+
+            <label for="name">Patient Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="doctor">Select Doctor:</label><br>
+            <select id="doctor" name="doctor">
+                <option>Dr. Ananya Sharma - General Physician</option>
+                <option>Dr. Rahul Mehta - Cardiologist</option>
+                <option>Dr. Priya Patel - Pediatrician</option>
+            </select><br><br>
+
+            <label for="date">Appointment Date:</label><br>
+            <input type="date" id="date" name="date" required><br><br>
+
+            <label for="time">Appointment Time:</label><br>
+            <input type="time" id="time" name="time" required><br><br>
+
+            <label for="reason">Reason for Visit:</label><br>
+            <textarea id="reason" name="reason" rows="4"></textarea><br><br>
+
+            <button type="submit">Book Appointment</button>
+
+        </form>
+    </main>
+
+    <footer>
+        <p>Healthcare Management System</p>
+    </footer>
+
+</body>
+</html>
